@@ -33,11 +33,17 @@ o nome do arquivo que será carregado e chame o método copiaArquivo
 
 
 OutputStream os = new FileOutputStream(newArq);
+
 byte[] buffer = new byte[4096];
+
 int len = fis.read(buffer);
+
 while (len != -1){
+
 os.write(buffer, 0, len);
+
 len = fis.read(buffer);
+
 }
 
 
