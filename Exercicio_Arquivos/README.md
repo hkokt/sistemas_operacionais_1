@@ -1,5 +1,4 @@
-1)
-Uma das operações mais utilizadas para manipulação de arquivos, é a cópia, ou seja, pegar o
+1-Uma das operações mais utilizadas para manipulação de arquivos, é a cópia, ou seja, pegar o
 conteúdo de um arquivo e colocar em outro.
 É possível simular, em Java, o comportamento dos comandos copy para sistemas Microsoft ou
 cp para Linux, por exemplo, no entanto, nesse caso, não é possível usar o FileWriter seguido do
@@ -30,3 +29,8 @@ arquivo que será copiado e faça o processo de cópia com o OutputStream descri
 usando 1024 de buffer e,
 uma classe ArquivosVisao, no package view, cuja a main carregue os endereços dos diretórios,
 o nome do arquivo que será carregado e chame o método copiaArquivo
+
+2-Fazer uma aplicação em Java que tenha uma classe de controle que contenha um método que
+receba um String com um caminho de diretório, faça as validações, e liste apenas os arquivos
+contidos, em ordem de tamanho (em MB). Para obter o tamanho do arquivo, pegar o double
+length() do File, que retorna o tamanho do arquivo em bytes.
